@@ -6,7 +6,7 @@ arp_spoof = ARP()
 
 eth = neti.interfaces()[1]
 
-def arp_broadcast(g_ip,s_ip,s_mac): #Get Recever's Mac
+def arp_broadcast(g_ip,s_ip,s_mac):
     arp_bro = ARP()
 
     arp_bro.hwsrc = s_mac
